@@ -18,16 +18,42 @@
 
 <br />
 
-## `> whoami`
+## ✦ Mission control
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <sub>IDENTITY</sub><br /><br />
+      <b>Computer Scientist</b><br />
+      <b>& Software Engineer</b><br /><br />
+      <code>Systems × AI/ML × Data</code>
+    </td>
+    <td width="34%" align="center">
+      <sub>OPERATING PRINCIPLE</sub><br /><br />
+      <b>Make it work.</b><br />
+      <b>Make it fast.</b><br />
+      <b>Make it scale.</b>
+    </td>
+    <td width="33%" align="center">
+      <sub>CURRENT SIGNAL</sub><br /><br />
+      <b>Reliable intelligence</b><br />
+      <span>for real-world systems</span><br /><br />
+      <code>performance · concurrency</code>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
 
 ```text
-Aaron Stephen  •  Computer Scientist & Software Engineer
-Mission        •  Turn difficult, data-heavy problems into dependable software.
-Home base      •  Systems × AI/ML × Backend × Data
-Favorite mode  •  Find the bottleneck. Learn the rules. Build the elegant fix.
+  systems  ───┐
+  data     ───┼── ✦  INTELLIGENT SOFTWARE  ✦ ──→ useful outcomes
+  AI / ML  ───┘
 ```
 
-I enjoy the work where performance, concurrency, real-time processing, and machine learning meet. I care about what a system does under pressure as much as I care about what it does on a happy-path demo.
+</div>
+
+I build where performance, concurrency, real-time processing, and machine learning meet. The happy path is only the opening scene; the interesting work is discovering how a system behaves under pressure.
 
 <div align="center">
 
@@ -35,35 +61,45 @@ I enjoy the work where performance, concurrency, real-time processing, and machi
 
 </div>
 
-## ✦ Quest log — projects I’ve built
+## ✦ The build atlas
+
+<div align="center">
+
+<sub>FOUR SYSTEMS · FOUR DIFFERENT KINDS OF HARD</sub>
+
+</div>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ Universal Reservation Coordination Protocol</h3>
-      <p>Distributed reservation infrastructure built for high-concurrency environments.</p>
+      <sub>01 / HIGH-CONCURRENCY SYSTEMS</sub>
+      <h3>⚡ Reservation Coordination Protocol</h3>
+      <p><b>The challenge:</b> coordinate reservations without double-booking, overselling, or leaving stale inventory behind.</p>
+      <blockquote>Atomic inventory, timed expiry, event streaming, idempotency, and recovery paths for busy booking flows.</blockquote>
       <p><code>Go</code> <code>Redis</code> <code>Lua</code> <code>Kafka</code></p>
-      <p>Protects inventory with atomic operations, timed reservation expiry, event streaming, idempotency, and recovery paths — the parts that keep a busy booking system honest.</p>
     </td>
     <td width="50%" valign="top">
+      <sub>02 / DATA TO DECISION</sub>
       <h3>🧠 Predictive Analytics Platform</h3>
-      <p>An intelligent platform that figures out how an uploaded dataset should be examined and modelled.</p>
+      <p><b>The challenge:</b> make uploaded data understandable before asking people to become analysts.</p>
+      <blockquote>Validation → profiling → problem detection → feature analysis → model selection → prediction.</blockquote>
       <p><code>Python</code> <code>FastAPI</code> <code>DuckDB</code> <code>Polars</code> <code>ML</code></p>
-      <p>Moves from validation and profiling through problem detection, feature analysis, model selection, and prediction.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <sub>03 / HIDDEN SIGNALS</sub>
       <h3>⚙️ Energy Intelligence Engine</h3>
-      <p>AI-driven infrastructure for understanding, monitoring, and optimizing energy use.</p>
+      <p><b>The challenge:</b> turn energy telemetry into a clear picture of normal, changed, and actionable.</p>
+      <blockquote>AI-driven monitoring and optimisation with time-series analysis, anomaly detection, and data pipelines.</blockquote>
       <p><code>AI/ML</code> <code>Time Series</code> <code>Anomaly Detection</code> <code>Data Pipelines</code></p>
-      <p>Built around the signal hiding inside energy data: what is normal, what has changed, and where action matters.</p>
     </td>
     <td width="50%" valign="top">
+      <sub>04 / FAST DATA</sub>
       <h3>🏎️ F1 Analytics Engine</h3>
-      <p>Historical motorsport analytics with machine-learning based race prediction.</p>
+      <p><b>The challenge:</b> turn racing history into comparisons, patterns, and predictive experiments.</p>
+      <blockquote>Historical motorsport analytics with machine-learning based race prediction and data exploration.</blockquote>
       <p><code>Python</code> <code>FastF1</code> <code>Machine Learning</code> <code>Data Analysis</code></p>
-      <p>A fast lane for turning racing history into useful comparisons, patterns, and predictive experiments.</p>
     </td>
   </tr>
 </table>
@@ -83,31 +119,45 @@ Result: fewer race conditions, no accidental overselling, and a path to recover 
 
 </details>
 
-## 🏆 Engineering achievements unlocked
+## 🏆 Achievement cabinet
 
-<div align="center">
-
-| Achievement | What it represents |
-|:--|:--|
-| 🛡️ **Race-condition ranger** | Designed concurrency-aware reservation flows for double-booking, overselling, contention, and expiration. |
-| 🔮 **Data alchemist** | Built a platform that turns raw uploaded data into an analysis and modelling path. |
-| ⚡ **Signal finder** | Applied time-series monitoring and anomaly detection to energy intelligence. |
-| 🏁 **Prediction pit crew** | Combined motorsport history and ML for race-focused analytics. |
-
-</div>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <h3>🛡️ Race-condition ranger</h3>
+      <sub>Concurrency-aware reservation flows for contention, expiry, and recovery.</sub>
+    </td>
+    <td width="50%" align="center">
+      <h3>🔮 Data alchemist</h3>
+      <sub>A platform that turns raw uploads into a path for analysis and modelling.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <h3>⚡ Signal finder</h3>
+      <sub>Time-series monitoring and anomaly detection for energy intelligence.</sub>
+    </td>
+    <td width="50%" align="center">
+      <h3>🏁 Prediction pit crew</h3>
+      <sub>Motorsport history combined with ML for race analytics.</sub>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=risky039&theme=algolia&no-frame=true&no-bg=true&margin-w=12&row=1" width="100%" alt="GitHub achievement trophies" />
 </div>
 
-## 🧭 Now exploring
+## 🧭 Exploration radar
 
-```text
-[█████████░] Distributed systems        coordination, fault tolerance, zero-copy I/O
-[████████░░] Concurrency                event-driven architecture and performance
-[███████░░░] Data engineering           large-scale processing and clean pipelines
-[██████░░░░] AI infrastructure          ML systems that are useful outside a notebook
-```
+<table>
+  <tr>
+    <td width="25%" align="center"><b>⚡ Systems</b><br /><sub>Zero-copy I/O<br />fault tolerance</sub></td>
+    <td width="25%" align="center"><b>🔥 Concurrency</b><br /><sub>Event-driven<br />architecture</sub></td>
+    <td width="25%" align="center"><b>📊 Data</b><br /><sub>Large-scale<br />processing</sub></td>
+    <td width="25%" align="center"><b>🧠 AI</b><br /><sub>Scalable ML<br />infrastructure</sub></td>
+  </tr>
+</table>
 
 ## 🧰 Constellation of tools
 
